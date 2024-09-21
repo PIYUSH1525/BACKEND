@@ -10,8 +10,14 @@
 // var b 
 
 
-a = 10;
-b = a;
-console.log(b);                         //Primitive data types
-b = b-5;
-console.log(a,b);
+// a = 10;
+// b = a;
+// console.log(b);                         //Primitive data types
+// b = b-5;
+// console.log(a,b);
+
+
+if ("mango"){
+    console.log("apple");
+    
+}
