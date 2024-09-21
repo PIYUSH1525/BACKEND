@@ -40,8 +40,8 @@
 
 // }
 
-function sayhi(){
-    console.log("sayhello");
-}
+// function sayhi(){
+//     console.log("sayhello");
+// }
 
-sayhi();
+// sayhi();
