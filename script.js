@@ -1,0 +1,1 @@
+alert("Hello Running")  //pops up messsage on opening of new window 
