@@ -1,8 +1,8 @@
-// //  // alert("Hello Running"); //pops up messsage on opening of new window
-// // /// // var arr =[1, 2,2, 3,4 ]
-// //  // var one = "happy"
-// //  // var two = "marne"
-// //  // console.log(o
+// alert("Hello Running"); //pops up messsage on opening of new window
+// // var arr =[1, 2,2, 3,4 ]
+  // var one = "happy"
+  // var two = "marne"
+  // console.log(o
 //  // console.log(a,b);  //hoisting implememnts here 
 //  // var a = 10;
 //  // var b 
@@ -23,7 +23,7 @@
 // // for(var i = 0 ; i<11; i++){
  // //     console.log(i);                             //for loop
     
-// // // // // // }
+ // }
 
 
 // i= 10
@@ -69,8 +69,15 @@
 //  Piyush.height = 5.10
 //  console.log(Piyush.height);
  
-  var array = [1,3,5,78,3,69]
-  array.forEach(function(all){
-    console.log(all+"Piyush");
-    console.log(all+" Piyush");
-  })
+//   var array = [1,3,5,78,3,69]
+//   array.forEach(function(all){
+//     console.log(all+"Piyush");
+//     console.log(all+" Piyush");
+//   })
+
+var alpha = [1,5,6,3,0]
+var newarr = alpha.map(function(value){
+    return value + 10
+})
+console.log(alpha);
+console.log(newarr);
