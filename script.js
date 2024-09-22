@@ -43,5 +43,8 @@
 // function sayhi(){
 //     console.log("sayhello");
 // }
-
 // sayhi();
+function summ(x,y){
+    console.log(x+y);
+}
+summ(3,4)
