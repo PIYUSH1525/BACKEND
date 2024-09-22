@@ -69,4 +69,8 @@
 //  Piyush.height = 5.10
 //  console.log(Piyush.height);
  
-  
+  var array = [1,3,5,78,3,69]
+  array.forEach(function(all){
+    console.log(all+"Piyush");
+    console.log(all+" Piyush");
+  })
