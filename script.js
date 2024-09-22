@@ -1,50 +1,63 @@
-// // // // // // alert("Hello Running"); //pops up messsage on opening of new window
-// // // // // // // var arr =[1, 2,2, 3,4 ]
-// // // // // // var one = "happy"
-// // // // // // var two = "marne"
-// // // // // // console.log(one,"and" ,two )
+// // // // // // // // alert("Hello Running"); //pops up messsage on opening of new window
+// // // // // // // // // var arr =[1, 2,2, 3,4 ]
+// // // // // // // // var one = "happy"
+// // // // // // // // var two = "marne"
+// // // // // // // // console.log(one,"and" ,two )
 
 
-// // // // // console.log(a,b);  //hoisting implememnts here 
-// // // // // var a = 10;
-// // // // // var b 
+// // // // // // // console.log(a,b);  //hoisting implememnts here 
+// // // // // // // var a = 10;
+// // // // // // // var b 
 
 
-// // // // // a = 10;
-// // // // // b = a;
-// // // // // console.log(b);                         //Primitive data types
-// // // // // b = b-5;
-// // // // // console.log(a,b);
+// // // // // // // a = 10;
+// // // // // // // b = a;
+// // // // // // // console.log(b);                         //Primitive data types
+// // // // // // // b = b-5;
+// // // // // // // console.log(a,b);
 
 
-// // // // if ("mango"){
-// // // //     console.log("apple");               //conditonal
+// // // // // // if ("mango"){
+// // // // // //     console.log("apple");               //conditonal
     
+// // // // // // }
+
+// // // // // // for(start:end:change)
+// // // // // for(var i = 0 ; i<11; i++){
+// // // // //     console.log(i);                             //for loop
+    
+// // // // // }
+
+
+// // // // i= 10
+// // // // while(i>5){
+// // // //     console.log(i);
+// // // //     i-=1  
 // // // // }
 
-// // // // for(start:end:change)
-// // // for(var i = 0 ; i<11; i++){
-// // //     console.log(i);                             //for loop
-    
+
+// // // function function_name(){
+
 // // // }
 
-
-// // i= 10
-// // while(i>5){
-// //     console.log(i);
-// //     i-=1  
+// // // function sayhi(){
+// // //     console.log("sayhello");
+// // // }
+// // // sayhi();
+// // function summ(x,y){
+// //     console.log(x+y);
 // // }
+// // summ(3,4);
 
-
-// function function_name(){
-
-// }
-
-// function sayhi(){
-//     console.log("sayhello");
-// }
-// sayhi();
-function summ(x,y){
-    console.log(x+y);
-}
-summ(3,4)
+//  var c = [1,4,"hello"]
+//  console.log(c[2]);
+//  c.push(34, 55)
+//  console.log(c);
+//  c.pop()
+//  console.log(c);
+// c.unshift("satrt")
+//  console.log(c);
+//  c.shift();
+//  console.log(c);
+ 
+ 
