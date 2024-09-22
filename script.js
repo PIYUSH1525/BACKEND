@@ -49,10 +49,11 @@
 // // }
 // // summ(3,4);
 
-//  var c = [1,4,"hello"]
+ var c = [1,4,"hello", 2,5,7]
+c.splice(2,2)
 //  console.log(c[2]);
 //  c.push(34, 55)
-//  console.log(c);
+ console.log(c);
 //  c.pop()
 //  console.log(c);
 // c.unshift("satrt")
