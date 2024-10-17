@@ -82,11 +82,20 @@
 // console.log(alpha);
 // console.log(newarr);
 
-var arr = [1,3,4,5]
-ans = arr.filter(function(val){
-    if (val > 2)
-        return val;
-    else
-        return false; 
-})
-console.log(ans);
+// var arr = [1,3,4,5]
+// ans = arr.filter(function(val){
+//     if (val > 2)
+//         return val;
+//     else
+//         return false; 
+// })
+// console.log(ans);
+
+ // find function 
+//  var arr = [1,3,4,5]
+//  var out = arr.find(function(val){
+//     if (val ==3)
+//         console.log(arr.indexOf(val));
+//  })
+//  console.log(arr.indexOf(1));
+ 
