@@ -99,3 +99,13 @@
 //  })
 //  console.log(arr.indexOf(1));
  
+//OBJECTS
+var obj1 = {
+    name: "Piyush",
+    age : 21
+}
+var obj2 = {
+    name: "ush",
+    age : 24
+}
+console.log(obj1.name,obj2['age'])
