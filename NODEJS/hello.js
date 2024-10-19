@@ -1,13 +1,22 @@
-const fs = require('node:fs')
+const joos = require('node:fs')
 // fs.writeFile("piyush.txt" , "Hello this is a new file " ,function(err){
 //     if (err)
 //         console.error("error");
 //     else
 //         console.log("Done"); 
 // })
-fs.appendFile("piyush.txt"," the starting of nodejs" , function(err){
+
+// fs.appendFile("piyush.txt"," the starting of nodejs" , function(err){
+//     if (err)
+//         console.error("Problem in the code")
+//     else
+//         console.log("Done")
+// })
+
+joos.rename("piyush.txt","Piyush.txt",function(err){
     if (err)
-        console.error("Problem in the code")
+        console.error("ERROR WITH CODE")
     else
-        console.log("Done")
+        console.log("DONE SIR ");
+        
 })
