@@ -13,10 +13,23 @@ const joos = require('node:fs')
 //         console.log("Done")
 // })
 
-joos.rename("piyush.txt","Piyush.txt",function(err){
-    if (err)
-        console.error("ERROR WITH CODE")
-    else
-        console.log("DONE SIR ");
+// joos.rename("piyush.txt","Piyush.txt",function(err){
+//     if (err)
+//         console.error("ERROR WITH CODE")
+//     else
+//         console.log("DONE SIR ");
         
-})
+// })
+
+// joos.copyFile("Piyush.txt","../COPPY",function(err){
+//     if (err)
+//         console.error("ERROR WITH CODE,")
+//     else
+//         console.log("DONE SIR ");
+// })
+// joos.copyFile("Piyush.txt","./NODEJS",function(err){
+//     if (err)
+//         console.error("ERROR WITH CODE")
+//     else
+//         console.log("DONE SIR ");
+// })
