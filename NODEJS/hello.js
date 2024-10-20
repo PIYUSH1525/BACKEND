@@ -33,3 +33,10 @@ const joos = require('node:fs')
 //     else
 //         console.log("DONE SIR ");
 // })
+
+joos.unlink("piuu.txt",function(err){
+    if (err)
+        console.error("ERROR WITH CODE")
+    else
+        console.log("DONE SIR ");
+})
