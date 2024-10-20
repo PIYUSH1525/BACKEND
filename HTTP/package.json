@@ -4,7 +4,7 @@
   "description": "http server creation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "index.js"
   },
   "author": "Piyush",
   "license": "ISC"
