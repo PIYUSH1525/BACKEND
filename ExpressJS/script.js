@@ -5,14 +5,15 @@ app.use(function(req,res,next){
     console.log("Middle ware")
     next();
 })
+app.get("/" , function(req,res){
+    res.send("yea mera page ha toh");
+})
+
 app.use(function(req,res,next){
     console.log("One mor eMiddle ware")
     next();
 })
 
-app.get("/" , function(req,res){
-    res.send("yea mera page ha toh");
-})
 app.get("/bhai" , function(req,res){
     res.send("yea mera bhai ka page ha");
 })
