@@ -14,6 +14,9 @@ app.use(function(req,res,next){
     next();
 })
 
+app.use(express.json());
+app.use(express.urlencoded({extended:true}));
+
 app.get("/bhai" , function(req,res,next){
     // res.send("yea mera bhai ka page ha");
     return next(new Error("Something Wrong"))
